@@ -34,7 +34,7 @@ jobs:
           context: .
           file: Dockerfile
           push: true
-          tags: Hieu07062004/it4409-sample:staging
+          tags: docker.io/Hieu07062004/it4409-sample:staging
 
   deploy:
     name: Deploy to Server
